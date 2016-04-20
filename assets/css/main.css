@@ -1,0 +1,153 @@
+/* Stefan Schultz, MDDN Project 2, April 2016 */
+
+/* COLOR PALETTE
+    Whether Blue = #36B3FF
+    Body Text Gray = #233343
+    Mid Gray Accent = #5E8293
+    Light Blue Accent = #F4FCFF
+    Light Body Gray = #D6DEDE
+*/
+
+/* FONT STYLING
+    Family = Source Sans Pro
+    Fallback = sans-serif
+    Main Headings = Extra Light, 100 weight
+    Sub headings = 100 weight
+    Large body text = 300 weight
+    Small copy = 400 weight
+    Smallest detail callouts = 600 weight
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: hidden;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 32pt;
+}
+
+#locationPermission {
+    display: none;
+    position: absolute;
+    background-color: #36B3FF;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+
+#locPermissionIcon {
+    width: 8em;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#locationPermission > h3 {
+    margin-left: 25%;
+    margin-top: 0%;
+    width: 50%;
+    color: white;
+}
+
+#locationPermission > p {
+    margin-left: 25%;
+    margin-top: -2%;
+    padding-bottom: 1em;
+    width: 50%;
+    color: white;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+#locContinueButton {
+    margin-left: 25%;
+    background-color: #F4FCFF;
+    padding: 0.7em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+    display: inline;
+    color: #658294;
+    border: solid #658294 2pt;
+    transition: 0.4s;
+}
+
+#locContinueButton:hover {
+    background-color: #658294;
+    border: solid #F4FCFF 2pt;
+    color: white;
+}
+
+#googleAuthorize {
+    display: block;
+    position: fixed;
+    background-color: #36B3FF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#authorize-button {
+    margin-left: 25%;
+    background-color: #F4FCFF;
+    padding: 0.7em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+    display: inline;
+    color: #658294;
+    border: solid #658294 2pt;
+    transition: 0.4s;
+}
+
+#authorize-button:hover {
+    background-color: #658294;
+    border: solid #F4FCFF 2pt;
+    color: white;
+}
+
+#authContinueButton {
+    margin-left: 2%;
+    background-color: #F4FCFF;
+    padding: 0.7em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+    display: inline;
+    color: #658294;
+    border: solid #658294 2pt;
+    transition: 0.4s;
+}
+
+#authContinueButton:hover {
+    background-color: #658294;
+    border: solid #F4FCFF 2pt;
+    color: white;
+}
+
+#googleAuthorize > h3 {
+    margin-left: 25%;
+    margin-top: 0%;
+    width: 50%;
+    color: white;
+}
+
+#googleAuthorize > p {
+    margin-left: 25%;
+    margin-top: -2%;
+    padding-bottom: 1em;
+    width: 50%;
+    color: white;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+#authIcon {
+    width: 8em;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+pre {
+    font-family: 'Source Sans Pro', sans-serif
+}
